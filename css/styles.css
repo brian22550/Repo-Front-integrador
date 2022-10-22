@@ -1,7 +1,4 @@
-*{ padding: 0;
-    margin: 0;
-    list-style: none;
-    
-    }
+.card {
+    position:relative;
+}
 
-    footer{text-align: center;}
