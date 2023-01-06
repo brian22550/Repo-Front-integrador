@@ -7,8 +7,10 @@
     <title> Proyecto Final</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/styles.css">
+        <button data-test-id="button-cart" class="sc-bSFUlv kSbjxw"><svg xmlns="http://www.w3.org/2000/svg" width="29" height="29" viewBox="0 0 29 29" alt="cart"><g fill="none" fill-rule="evenodd"><g fill="currentcolor"><path d="M9.1 17.84l-1.598-7.39h16.127l-2.452 7.39H9.1zm11.994 6.274c0 .508-.395.922-.883.922-.487 0-.884-.414-.884-.922 0-.51.397-.924.884-.924.488 0 .883.414.883.924zm-11.977.922c-.487 0-.884-.414-.884-.922 0-.51.397-.924.884-.924s.883.414.883.924c0 .508-.396.922-.883.922zm13.362-6.104l2.997-9.034c.084-.251.046-.53-.103-.746-.146-.216-.385-.346-.64-.346H7.147L6.132 4.12c-.08-.375-.399-.64-.767-.64H1.946c-.434 0-.786.367-.786.822 0 .453.352.822.786.822h2.791l3.584 16.573c-.962.347-1.66 1.294-1.66 2.417 0 1.415 1.102 2.566 2.456 2.566 1.355 0 2.456-1.15 2.456-2.566 0-.327-.064-.636-.171-.924h6.524c-.107.288-.171.597-.171.924 0 1.415 1.102 2.566 2.456 2.566 1.355 0 2.456-1.15 2.456-2.566s-1.101-2.568-2.456-2.568c-.044 0-.085.013-.128.015-.022-.002-.042-.015-.064-.015H9.902l-.446-2.062h12.28c.335 0 .634-.222.743-.552z"></path></g></g></svg></button>
   </head>
 <body>
+
     <header>
 <nav class="navbar navbar-expand-lg bg-light">
     <div class="container-fluid">
@@ -28,16 +30,17 @@
             <a class="nav-link" href="#">Video</a>
           </li>
         </ul>
-        <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Buscar</button>
-        </form>
-      </div>
-    </div>
+  </div>
   </nav>
-    </header>
-    <main>
+<form action="#" name="form" id="form">
+  <input type="text" name="name" id="name" placeholder="ingrese su nombre">
+  <input type="password" name="pass" id="pass" placeholder="contraseña">
+  <input type="submit"value="Send">
+</form>
 
+    </header>
+
+  
 <div class="row row-cols-1 row-cols-md-3 g-4">
   <div class="col">
     <div class="card h-100">
@@ -62,8 +65,9 @@
           - Puntos Laterales Blanco<br>
           - Hueso sintético String Nut<br>
           - Ajuste de la cabeza de la barra de armadura</p></p>
+          <div class="row" id="items"></div>
       </div>
-      <a href="#" class="btn btn-primary">Agregar a carrito</a>
+      <a href="agr"  class="btn btn-primary" >Agregar a carrito</a>
     </div>
   </div>
   <div class="col">
@@ -91,7 +95,7 @@
           -Color Negro
           </p>
       </div>
-      <a href="#" class="btn btn-primary">Agregar a carrito</a>
+      <a href="agr" class="btn btn-primary">Agregar a carrito</a>
     </div>
   </div>
   <div class="col">
@@ -117,7 +121,7 @@
           -Pads Sensitivos
         </p>
       </div>
-      <a href="#" class="btn btn-primary">Agregar a carrito</a>
+      <a href="agr" class="btn btn-primary">Agregar a carrito</a>
     </div>
   </div>
 </div>
@@ -127,45 +131,98 @@
 <div class="row row-cols-1 row-cols-md-3 g-4">
   <div class="col">
     <div class="card h-100">
-      <img src="..." class="card-img-top" alt="...">
+      <img src="https://i.ebayimg.com/images/g/l4IAAOSwt2df0KBI/s-l500.jpg" class="card-img-top" alt="...">
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <h3>$ 13.380</h3>
+        <h5 class="card-title">Ukelele de concierto con bolso de mano</h5>
+        <p class="card-text">
+          - Longitud de escala de 378 mm<br>
+          - Longitud total 612 mm<br>
+          - Tapa de caoba (Shorea dipterocarpaceae)<br>
+          - Cuerpo de plástico compuesto moldeado por inyección<br>
+          - 18 trastes de latón<br>
+          - Diapasón de nogal negro<br>
+          - Puente de nogal negro<br>
+          - Mástil de caoba (Aucoumea klaineana)<br>
+          - mecánica abierta y traducida<br>
+          - Cuerdas Aquila Super Nylgut<br>
+          - superficie semibrillante púrpura erizo de mar<br>
+          - Incluye bolso shopper Makala de nailon<br>
+          - 4 años de garantía W-Music Distribution (se requiere registro del producto)</p>
       </div>
-      <div class="card-footer">
-        <small class="text-muted">Last updated 3 mins ago</small>
-      </div>
+      <a href="agr" class="btn btn-primary">Agregar a carrito</a>
     </div>
   </div>
   <div class="col">
     <div class="card h-100">
-      <img src="..." class="card-img-top" alt="...">
+      <img src="https://i.ebayimg.com/images/g/Vp8AAOSwe75fFzq~/s-l640.jpg" class="card-img-top" alt="...">
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+        <h3 class="card-title">$ 221.550</h3>
+        <h5>Bandeja Giradiscos Pioneer Plx-500</h5>
+        <p class="card-text">-Cable de alimentación <br>
+          -Cable USB<br>
+          -Patinador<br>
+          -Tapa con soporte para carátulas<br>
+          -Adaptador para Singles<br>
+          -Cabezal (con cápsula)<br>
+          -Pesos y contrapesos<br>
+          -Cable de Audio conversor<br>
+          -Stereo pin plug (hembra)<br>
+          -Stereo mini plug (macho)<br>
+          -Manual de instrucciones<br>
+          
+          -Ancho 450 mm<br>
+          -Alto 159 mm<br>
+          -Profundo 368 mm<br>
+          -Peso 10,7 kg</p>
       </div>
-      <div class="card-footer">
-        <small class="text-muted">Last updated 3 mins ago</small>
-      </div>
+      <a href="agr" class="btn btn-primary">Agregar a carrito</a>
     </div>
   </div>
   <div class="col">
-    <div class="card h-100">
-      <img src="..." class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+    <div class="card h-100"><br><br><br><br>
+      <img src="https://http2.mlstatic.com/D_NQ_NP_886312-MLA46014289621_052021-O.webp" class="card-img-top" alt="...">
+      <div class="card-body"><br><br><br>
+        <h3>$25.000</h3>
+        <h5 class="card-title">Bongo Stagg Bw 70 Natural</h5>
+        <p class="card-text">-Tamaño del bongó: 7" y 8"<br>
+          -Material del bongó: Madera<br>
+          -Material del parche del bongó: Sintético<br>
+          -Soporte: No<br>
+          -Estuche: No<br>
+          -Acabado natural<br>
+          -Tapones para llaves de tambor<br>
+          -Gran calidad</p>
       </div>
-      <div class="card-footer">
-        <small class="text-muted">Last updated 3 mins ago</small>
-      </div>
+      <div class="row g-2">
+        <div class="col-md">
+          <div class="form-floating">
+            <input type="number" class="form-control" id="n2" value="Cantidad">
+            <label for="floatingInputGrid"></label>
+          </div>
+        </div>
+      <a href="agr" class="btn btn-primary">Agregar a carrito</a>
+
     </div>
   </div>
 </div>
-    </main>
+<div>
+    <button class="btn btn-center col-12" id="sumarr">Pagar</button>
+  </div>
+    <div class="row justify-content-center mt-5">
+      <div class="alert alert-success col-8 col-md-6" id="respuesta" role="alert"> </div>
+
+      
+
+
+
+
+     
+
+
     <footer>&copy; 2022 All rights reserved</footer>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script> 
-    <script src="./js/java.js"></script>
+    <script src="./java1.js"></script>
 </body>
 </html>
